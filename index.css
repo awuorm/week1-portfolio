@@ -135,7 +135,9 @@ form{
  input {
     border-radius: 5px;
     border: none;
-    padding: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
  }
 
  button{
@@ -143,7 +145,8 @@ form{
     border: none;
     padding: 10px;
     border-radius: 5px;
-    width: 150px;
+    width: 100%;
+    cursor: pointer;
  }
 
 section .contact-section address {
