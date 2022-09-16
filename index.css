@@ -23,13 +23,6 @@ h6 {
     /*=======  Update the font size to 30px */
     font-size: 30px;
 }
-
-/*======= Create a selector for ALL p tags in the site to have the following styles:
-  font-size: 16px;
-  font-family: 'Gaegu', cursive;
-  padding: 10px;
-  line-height: 1.4;
-  */
 p {
     font-size: 16px;
     font-family: 'Gaegu', cursive;
@@ -37,10 +30,6 @@ p {
     line-height: 1.4;
 }
 
-
-/*======= Create a selector for ALL images in the site to have the following styles: 
-    border-radius: 10px;
-  */
 img {
     border-radius: 10px;
     animation-duration: 3s;
@@ -48,19 +37,6 @@ img {
     animation-iteration-count: 2;
     animation-direction: alternate;
 }
-
-/* @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  } */
-
 .content-row {
     display: flex;
     font-family: 'Gaegu', cursive;
@@ -101,9 +77,6 @@ img {
     color: pink;
 }
 
-/*======= Create a selector for the about section to have the following styles:
-    margin-top: 20px;
-  */
 section .about {
     margin-top: 20px;
     font-family: 'Gaegu', cursive;
@@ -186,11 +159,6 @@ footer nav {
     display: flex;
 }
 
-/*======= Create a selector for the anchor tag in the footer to have the following styles:
-    margin: 10px;
-    color: black;
-    text-decoration: underline;
-  */
 footer .footer-content nav a {
     margin: 10px;
     color: white;
@@ -198,14 +166,10 @@ footer .footer-content nav a {
 
 }
 
-
 footer nav a:first-child {
     margin-left: 0;
 }
 
-/*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
-    color: white;
-  */
 footer .footer-content nav a:hover {
     color: white;
 }
